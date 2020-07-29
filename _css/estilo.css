@@ -38,3 +38,43 @@ p {
 figcaption:hover{
     opacity: 1;    
 }
+
+/* Formatação menu */
+
+.navegacao ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.navegacao li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ddd;
+    margin: 2px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+.navegacao {
+    display: block;
+}
+.navegacao a{
+    text-decoration: none;
+    color: black;
+}
+
+.navegacao h1 {
+    display: none;
+}
+
+.navegacao li:hover{
+    background-color: #444;
+    color: white;
+}
+
+.navegacao a:hover{
+    color: white;
+}
