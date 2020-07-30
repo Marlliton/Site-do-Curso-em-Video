@@ -1,8 +1,42 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'fonteLogo';
+    src: url('../_fonts/bubblegum-sans-regular.otf');
+}
 
 body {
-    background-color: white;
+    background-color: #ddd;
     color: rgba(0, 0, 0, 1);
+}
+
+#icone {
+    position: absolute;
+    right: 130px;
+    top: 80px;
+}
+
+#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 90px;
+}
+
+#cabecalho h1 {
+    font-family: 'fonteLogo', Helvetica, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15pt;
+    color: #888;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 p {
@@ -46,7 +80,7 @@ figcaption:hover{
     text-transform: uppercase;
     position: absolute;
     top: 0px;
-    right: 10px;
+    right: 155px;
 }
 
 .navegacao li {
@@ -78,3 +112,12 @@ figcaption:hover{
 .navegacao a:hover{
     color: white;
 }
+
+#interface {
+    width: 1000px;
+    padding: 20px;
+    background-color: #fff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
+}
+
