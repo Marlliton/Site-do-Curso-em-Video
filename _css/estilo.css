@@ -121,3 +121,62 @@ figcaption:hover{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
 }
 
+#corpo {
+    display: block;
+    width: 550px;
+    float: left;
+    padding-right: 25px;
+    border-right: solid 1px #606060;
+}
+
+#tabela {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin: auto;
+}
+
+#tabela td {
+    border: solid 1px #606060;
+    padding: 10px;
+    text-align: center;
+}
+
+#tabela caption {
+    color: #888;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#tabela span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 9pt;
+    margin-top: 13px;
+    
+}
+
+.ce {
+    color: white;
+    background-color: #606060;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.cd {
+    background-color: rgba(136, 136, 136, 0.39);
+}
+
+#lateral {
+    display: block;
+    width: 400px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    border-top: solid 1px #606060;
+    text-align: center;
+    padding-top: 15px;
+}
+
