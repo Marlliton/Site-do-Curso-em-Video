@@ -131,7 +131,7 @@ figcaption:hover{
 
 #corpo {
     display: block;
-    width: 550px;
+    width: 530px;
     float: left;
     padding-right: 25px;
     border-right: solid 1px #606060;
@@ -209,6 +209,24 @@ figcaption:hover{
     display: block;
     width: 400px;
     float: right;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.479);
+}
+
+#lateral h1 {
+    font-family: 'fonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px ;
+}
+
+#lateral h2 {
+    background-color: #606060;
+    font-size: 15pt;
+    color: white;
+    padding: 10px ;
 }
 
 #rodape {

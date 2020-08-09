@@ -1,47 +1,84 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo Sobre o Google Glass</title>
+    <link rel="stylesheet" href="/_css/estilo.css">
+</head>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+            <img id="icone" src="_imagens/contato.png" alt="Óculos">
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
+            <nav class="navegacao">
+                <h1>Menu Principal </h1>
+                <ul>
+                    <li onmousemove="mudaFoto('./_imagens/home.png')"
+                        onmouseout="mudaFoto('./_imagens/glass-oculos-preto-peq.png')"><a href="index.html">Home</a>
+                    </li>
+
+                    <li onmousemove="mudaFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('./_imagens/glass-oculos-preto-peq.png')"><a
+                            href="specs.html">Especificações</a></li>
+
+                    <li onmousemove="mudaFoto('_imagens/fotos.png')"
+                        onmouseout="mudaFoto('./_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a>
+                    </li>
+
+                    <li onmousemove="mudaFoto('_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('./_imagens/glass-oculos-preto-peq.png')"><a
+                            href="multimidia.html">Multimídia</a></li>
+
+                    <li onmousemove="mudaFoto('_imagens/contato.png')"
+                        onmouseout="mudaFoto('./_imagens/contato.png')"><a href="fale-conosco.html">Fale
+                            conosco</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        Identificação do Usuário
+        Nome:
+        Senha:
+        E-mail:
+        Sexo:
         - Masculino
         - Feminino
-    Data de Nascimento:
+        Data de Nascimento:
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+        Endereço do Usuário
+        Logradouro:
+        Número:
+        Estado:
+        Cidade:
 
-Mensagem do Usuário
-    Grau de Urgência:
-    Mensagem:
+        Mensagem do Usuário
+        Grau de Urgência:
+        Mensagem:
 
-Quero um Google Glass
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+        Quero um Google Glass
+        Gostaria de adquirir um Google Glass quando disponível
+        Cor:
+        Quantidade:
+        Preço Total: R$
 
 
-[BOTÃO ENVIAR]
+        [BOTÃO ENVIAR]
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+        <footer id="rodape">
+            Copyright 2013 - by Gustavo Guanabara<br />
+            <a href="http://Facebook.com/cursosemvideo" target="_blank">Facebook</a> |
+            <a href="http://twitter.com/cursosemvideo" target="_blank">Twitter</a>
+        </footer>
+        <script src="./_javascript/funcoes.js"></script>
+</body>
+
+</html>
